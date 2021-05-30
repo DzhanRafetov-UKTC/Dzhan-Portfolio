@@ -1,0 +1,52 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#myVideo { 
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    right: 60%;
+    min-width: 100%;
+    min-height: 100%;
+    width:auto;
+    height:auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+ 
+  background-size: cover;
+  transition: 1s opacity;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:whitesmoke;
+    text-align: center;
+    text-shadow: 0 0 6px white;
+ 
+
+}
+section h2{
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 10px;
+    text-shadow: 0 0 6px white;
+
+
+}
+section p{
+    line-height: 1.4;
+    margin: 15px 0;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 0 0 px white;
+}
